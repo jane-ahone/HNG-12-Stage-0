@@ -4,7 +4,7 @@
 
 This is a public API for the HNG12 backend task. It returns:
 
-- 📧 Your registered email
+- 📧 The owner's registered email
 - 🕒 Current date-time (UTC, ISO 8601 format)
 - 🔗 GitHub URL of this project
 
@@ -16,7 +16,7 @@ The API is built using Node.js (Express.js) and is designed to handle CORS prope
 
 - Base URL:
   ```
-  https://your-api-name.onrender.com/
+  https://hng-12-stage-0-udwj.onrender.com
   ```
 
 ### GET `/`
@@ -26,7 +26,7 @@ The API is built using Node.js (Express.js) and is designed to handle CORS prope
   {
     "email": "jane.eloundou@gmail.com",
     "current_datetime": "2025-01-30T09:30:00Z",
-    "github_url": "https://github.com/jane-ahone/HNG-12-Stage-0"
+    "github_url": "<https://github.com/jane-ahone/HNG-12-Stage-0>"
   }
   ```
 
@@ -45,7 +45,6 @@ The API is built using Node.js (Express.js) and is designed to handle CORS prope
 
 ```bash
 git clone https://github.com/jane-ahone/HNG-12-Stage-0.git
-cd HNG-12-Stage-0
 ```
 
 ### 2️⃣ Install Dependencies
@@ -57,7 +56,7 @@ npm install
 ### 3️⃣ Run the Server
 
 ```bash
-node server.js
+npm start
 ```
 
 ### 4️⃣ Test the API
@@ -74,7 +73,7 @@ node server.js
 This API is deployed on Render and publicly accessible at:
 
 ```
-https://your-api-name.onrender.com/
+https://hng-12-stage-0-udwj.onrender.com
 ```
 
 ---

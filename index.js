@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     res.status(200).json({
       email: "jane.eloundou@gmail.com",
       current_datetime: new Date().toISOString(),
-      github_url: "https://github.com/jane-ahone/HNG-12-Stage-0",
+      github_url: "<https://github.com/jane-ahone/HNG-12-Stage-0>",
     });
   } catch (error) {
     res.status(500).json({
