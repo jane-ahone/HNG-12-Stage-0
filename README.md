@@ -26,7 +26,7 @@ The API is built using Node.js (Express.js) and is designed to handle CORS prope
   {
     "email": "jane.eloundou@gmail.com",
     "current_datetime": "2025-01-30T09:30:00Z",
-    "github_url": "<https://github.com/jane-ahone/HNG-12-Stage-0>"
+    "github_url": "https://github.com/jane-ahone/HNG-12-Stage-0"
   }
   ```
 
