@@ -44,7 +44,7 @@ The API is built using Node.js (Express.js) and is designed to handle CORS prope
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/jane-ahone/HNG-12-Stage-0.git
+git clone https://github.com/jane-ahone/HNG-12-Stage-0
 ```
 
 ### 2️⃣ Install Dependencies
